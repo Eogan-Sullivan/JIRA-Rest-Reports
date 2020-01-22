@@ -1,7 +1,7 @@
 import requests
 import json
 import base64
-import pandas
+import pandas as pd
 
 # Base encode email and api token
 cred =  "Basic " + base64.b64encode(b'<JIRA EMAIL>:<JIRA API KEY>').decode("utf-8") 
